@@ -8,3 +8,10 @@ sentry_sdk.init(
 )
 
 division = 1/0
+
+
+def fail():
+    raise Exception("test")
+
+
+fail()
